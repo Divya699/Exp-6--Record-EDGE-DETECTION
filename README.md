@@ -164,25 +164,38 @@ else:
     
 # Output
 
+### Original Image
+
+<img width="611" height="480" alt="Screenshot 2026-11-01 004045" src="https://github.com/user-attachments/assets/1ccfcffb-5d9c-400c-ae9d-682801e5ed3b" />
+
+
 ###  Sobel Edge Detector
 - Detects edges in horizontal and vertical directions  
-- Produces gradient-based edge map  
+- Produces gradient-based edge map
+<img width="590" height="34" alt="Screenshot 2026-11-01 004526" src="https://github.com/user-attachments/assets/7b8e8e33-d650-471a-86a2-f2204359f8ca" />
+<img width="433" height="669" alt="Screenshot 2026-11-01 003906" src="https://github.com/user-attachments/assets/e478a03f-ab7b-42c3-8024-1adb16e84449" />
 
 ###  Prewitt Edge Detector
 - Similar to Sobel but simpler kernel  
 - Detects directional edges  
+<img width="421" height="658" alt="Screenshot 2026-11-01 004018" src="https://github.com/user-attachments/assets/00b0f94d-c87c-44ce-b681-730c74f1aa83" />
 
 ###  Roberts Edge Detector
 - Detects edges using diagonal gradients  
 - Sensitive to noise  
+<img width="410" height="660" alt="Screenshot 2026-11-01 004008" src="https://github.com/user-attachments/assets/b1e966aa-9c9a-487e-9db1-b315a7d06ebc" />
 
 ###  Laplacian Edge Detector
 - Detects edges using second-order derivatives  
-- Highlights rapid intensity changes  
+- Highlights rapid intensity changes
+<img width="596" height="32" alt="Screenshot 2026-11-01 004640" src="https://github.com/user-attachments/assets/d6c1e492-96fd-4862-9a57-a7531ca487d5" />
+<img width="393" height="664" alt="Screenshot 2026-11-01 003930" src="https://github.com/user-attachments/assets/f7ef704a-6313-49ea-8614-0b2b7e74bf78" />
 
 ###  Canny Edge Detector
 - Multi-stage edge detection  
-- Produces clean and thin edges  
+- Produces clean and thin edges
+<img width="823" height="46" alt="Screenshot 2026-11-01 004726" src="https://github.com/user-attachments/assets/8c5442bc-2f9c-4fd4-8929-a8b4dcf7469e" />
+<img width="417" height="666" alt="Screenshot 2026-11-01 003946" src="https://github.com/user-attachments/assets/4455b0c1-f5a7-4b86-a539-cf1ce1f2379f" />
 
 ---
 
