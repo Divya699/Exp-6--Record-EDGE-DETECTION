@@ -60,7 +60,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread(r"C:\Users\acer\OneDrive\Pictures\Screenshots\FLOWER.png")  # Replace with your image path
+image = cv2.imread(r"C:\Users\acer\OneDrive\Pictures\Screenshots\FLOWER.png") 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Original Image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
@@ -188,8 +188,10 @@ else:
 ###  Laplacian Edge Detector
 - Detects edges using second-order derivatives  
 - Highlights rapid intensity changes
-<img width="596" height="32" alt="Screenshot 2026-11-01 004640" src="https://github.com/user-attachments/assets/d6c1e492-96fd-4862-9a57-a7531ca487d5" />
+<img width="669" height="32" alt="image" src="https://github.com/user-attachments/assets/df47466a-eaa4-4081-b496-44d9783f50ea" />
+
 <img width="393" height="664" alt="Screenshot 2026-11-01 003930" src="https://github.com/user-attachments/assets/f7ef704a-6313-49ea-8614-0b2b7e74bf78" />
+
 
 ###  Canny Edge Detector
 - Multi-stage edge detection  
